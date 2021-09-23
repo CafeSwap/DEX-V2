@@ -1,0 +1,75 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "Q112",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "RESOLUTION",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60c4610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c80633bf7a83e146042578063552f888a14605a575b600080fd5b60486076565b60408051918252519081900360200190f35b60606089565b6040805160ff9092168252519081900360200190f35b6e01000000000000000000000000000081565b60708156fea26469706673582212209c1ad1b5ab6cd94ca501813f6b9551b0745c5c0b1c6d6af632fbb1a93c41780364736f6c634300060c0033",
+      "opcodes": "PUSH1 0xC4 PUSH2 0x25 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH2 0x18 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3D JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3BF7A83E EQ PUSH1 0x42 JUMPI DUP1 PUSH4 0x552F888A EQ PUSH1 0x5A JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x48 PUSH1 0x76 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x60 PUSH1 0x89 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0xFF SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH15 0x10000000000000000000000000000 DUP2 JUMP JUMPDEST PUSH1 0x70 DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP13 BYTE 0xD1 0xB5 0xAB PUSH13 0xD94CA501813F6B9551B0745C5C SIGNEXTEND SHR PUSH14 0x6AF632FBB1A93C41780364736F6C PUSH4 0x4300060C STOP CALLER ",
+      "sourceMap": "251:5884:25:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c80633bf7a83e146042578063552f888a14605a575b600080fd5b60486076565b60408051918252519081900360200190f35b60606089565b6040805160ff9092168252519081900360200190f35b6e01000000000000000000000000000081565b60708156fea26469706673582212209c1ad1b5ab6cd94ca501813f6b9551b0745c5c0b1c6d6af632fbb1a93c41780364736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3D JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3BF7A83E EQ PUSH1 0x42 JUMPI DUP1 PUSH4 0x552F888A EQ PUSH1 0x5A JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x48 PUSH1 0x76 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x60 PUSH1 0x89 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0xFF SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH15 0x10000000000000000000000000000 DUP2 JUMP JUMPDEST PUSH1 0x70 DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP13 BYTE 0xD1 0xB5 0xAB PUSH13 0xD94CA501813F6B9551B0745C5C SIGNEXTEND SHR PUSH14 0x6AF632FBB1A93C41780364736F6C PUSH4 0x4300060C STOP CALLER ",
+      "sourceMap": "251:5884:25:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;540:62;;;:::i;:::-;;;;;;;;;;;;;;;;496:38;;;:::i;:::-;;;;;;;;;;;;;;;;;;;540:62;571:31;540:62;:::o;496:38::-;531:3;496:38;:::o"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"Q112\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"RESOLUTION\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/FixedPoint.sol\":\"FixedPoint\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/Babylonian.sol\":{\"keccak256\":\"0xeb1c2a281a00f4660775f75ccfa1e51fbe1d75f86aeb9d0d297151ecdb900177\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://68515f0265381bddfb1d1356ea10ce4e5784276fc09f197fcdcedfa5c75cc069\",\"dweb:/ipfs/QmXWVVPnuJwRUAu3Qpu1s7Fyc5WPQxmZPczVEe5cJ5wVHZ\"]},\"contracts/libraries/BitMath.sol\":{\"keccak256\":\"0x19f84d5268286794b44939ec0d85b3c6f59e133f826cdbd9e40112fc94919bb7\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://d21c67ed58cf667d052e141df2fba76c46c159edcc45eb897c908c20c69d2727\",\"dweb:/ipfs/QmUyKz1992wgR8nYAzBuQzjBAKMxLAN3hTgzpYJxusbmVH\"]},\"contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xc3a39b8a11715cea45ad9f67f50e4e4c33778c1124acd59e90daf064c9a93974\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://2c6c3cdcdb30caa5d15477550003b5dbb174cb2c0be3c012af030fce3d043f28\",\"dweb:/ipfs/QmWh3n5g6zq3umJcURnKCFhhif2c8yb6mKczFjfoCNLC3g\"]},\"contracts/libraries/FullMath.sol\":{\"keccak256\":\"0xc4ffcf28169f73fc9fdd1f82345d6d4fcccf3fd5aea83c133437c25e4e0950a9\",\"license\":\"CC-BY-4.0\",\"urls\":[\"bzz-raw://c9257a47501005f0a648bc4801ef4abc33843681aaf03a6d0c43d46b69e37407\",\"dweb:/ipfs/QmciHvDrqhxs5fjsrm9aNq29FZXpunMn17n2wWj83Zsh3B\"]}},\"version\":1}",
+  "interface": [
+    {
+      "inputs": [],
+      "name": "Q112",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "RESOLUTION",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "60c4610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c80633bf7a83e146042578063552f888a14605a575b600080fd5b60486076565b60408051918252519081900360200190f35b60606089565b6040805160ff9092168252519081900360200190f35b6e01000000000000000000000000000081565b60708156fea26469706673582212209c1ad1b5ab6cd94ca501813f6b9551b0745c5c0b1c6d6af632fbb1a93c41780364736f6c634300060c0033"
+}

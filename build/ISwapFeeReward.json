@@ -1,0 +1,91 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "input",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "output",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "swap",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "",
+      "opcodes": "",
+      "sourceMap": ""
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "",
+      "opcodes": "",
+      "sourceMap": ""
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"input\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"output\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"swap\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/CafeSwapV2Router02.sol\":\"ISwapFeeReward\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/CafeSwapV2Router02.sol\":{\"keccak256\":\"0x6a9b5811c2c8b7f8eb58d65196ba11cf999fe1349ae5db5c0da30f1594f8a714\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://7ed67920764a7fcb846a35517af6d34af591d5ffbf3d4d47703fa0a954585cf4\",\"dweb:/ipfs/QmYJbRsyoWEgkQt9eW9dAaF2fPK8pQeUbeYTXtBT3bHVRH\"]},\"contracts/interfaces/ICafeSwapV2Pair.sol\":{\"keccak256\":\"0xb5534127f4a2326e7d74721f602af139adfe76ddf42d83b86d6d0adf3a4523c4\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://ab774249993476c0abf4380f28e3a16ef82e22586965aa7e7b922b5e99809963\",\"dweb:/ipfs/QmQ2baKnHNH1Bn5e6zjFuiHvMqh83NL1EkSZ3gFyfTqyxc\"]},\"contracts/interfaces/ICafeSwapV2Router02.sol\":{\"keccak256\":\"0xbbb0d2cefa5da1cb6a72c2119b80a4ddebed85140613eab836eede22d0f22eac\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://ecd002cf813e86ee117304d1fe3effe7e0bd05d34809da65d540b47b8a0fdfe9\",\"dweb:/ipfs/QmSV2pMDAeGPVC3skaZi1niodMZxMfXC6r7R2EdZcCSbtS\"]},\"contracts/interfaces/IERC20.sol\":{\"keccak256\":\"0x8b6d1b27ea94e62d8531890bbb9997df8b967954f8b5b8d50e10e402a220b252\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://b0c0c285ab215a428ed4bb06a46e9a81b21e60da5cb2eeae881d27e3f03f5c7b\",\"dweb:/ipfs/QmdadgnhWxJtQD7z5JyVjECHcmXxuBH1DkYNuJ1K1mjBib\"]},\"contracts/interfaces/IWETH.sol\":{\"keccak256\":\"0x494298d238518c6cec121a35728d992b9a3b36549d1c906ac9c379bc9d458f02\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://724db2b90a717fab7ef9b60266f3767d169f6103b6110f6e9522c8a035a6b45b\",\"dweb:/ipfs/QmQod7mCdnEH1inChiAuqcKgt9z83iULh4AYuiwRo3MRdx\"]},\"contracts/libraries/Babylonian.sol\":{\"keccak256\":\"0xeb1c2a281a00f4660775f75ccfa1e51fbe1d75f86aeb9d0d297151ecdb900177\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://68515f0265381bddfb1d1356ea10ce4e5784276fc09f197fcdcedfa5c75cc069\",\"dweb:/ipfs/QmXWVVPnuJwRUAu3Qpu1s7Fyc5WPQxmZPczVEe5cJ5wVHZ\"]},\"contracts/libraries/CafeSwapV2Library.sol\":{\"keccak256\":\"0x7a85ae734785f6a22c5902e9ea4aa516cdd98a438e16f5f15102118c8e109af2\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://5e35ab82f39d683d8eaf090fc22c135c0ebb485f5fb01145c7f38cf4684d60af\",\"dweb:/ipfs/QmeGPCe73Y5E8fno9Tt9ic9LuWxFdDw7L55RN95FwEgMkw\"]},\"contracts/libraries/FullMath.sol\":{\"keccak256\":\"0xc4ffcf28169f73fc9fdd1f82345d6d4fcccf3fd5aea83c133437c25e4e0950a9\",\"license\":\"CC-BY-4.0\",\"urls\":[\"bzz-raw://c9257a47501005f0a648bc4801ef4abc33843681aaf03a6d0c43d46b69e37407\",\"dweb:/ipfs/QmciHvDrqhxs5fjsrm9aNq29FZXpunMn17n2wWj83Zsh3B\"]},\"contracts/libraries/SafeMath.sol\":{\"keccak256\":\"0x41832763808fd5266deb80defac663f8770a17b31be7ec7881b4aba9f93d477f\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://0f0b2a35c6998bf6b4e4b0a30ea9f4768c06405bd08897029c635732b72e66fc\",\"dweb:/ipfs/QmTwCRxyc5yYHtzvySBa7F33cWQsQA2mBZqvrY85G9pwCF\"]},\"contracts/libraries/TransferHelper.sol\":{\"keccak256\":\"0x923917d98dffdf5c2375145a5bda3e3d635d5a6406e52d144b40030fc562a7c4\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://9f3f6f41aad0c39e1ee363271ef0538be85272e39405d7d5420b6f9e96529bce\",\"dweb:/ipfs/QmUWqQVF3QsHfs4EkwvoTBGjfz9j9MV4URbzCHxbzKPgQr\"]}},\"version\":1}",
+  "interface": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "input",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "output",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "swap",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": ""
+}

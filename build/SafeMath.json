@@ -1,0 +1,75 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ray",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wad",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60b2610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c8063416a8b201460425780637df38c5b14605a575b600080fd5b60486060565b60408051918252519081900360200190f35b60486070565b6b033b2e3c9fd0803ce800000090565b670de0b6b3a76400009056fea2646970667358221220b1258935f1f8280e095d8b1764d12e1a5e65f00ccb682cbf1dc2b9756f42bc9964736f6c634300060c0033",
+      "opcodes": "PUSH1 0xB2 PUSH2 0x25 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH2 0x18 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3D JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x416A8B20 EQ PUSH1 0x42 JUMPI DUP1 PUSH4 0x7DF38C5B EQ PUSH1 0x5A JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x48 PUSH1 0x60 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x48 PUSH1 0x70 JUMP JUMPDEST PUSH12 0x33B2E3C9FD0803CE8000000 SWAP1 JUMP JUMPDEST PUSH8 0xDE0B6B3A7640000 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB1 0x25 DUP10 CALLDATALOAD CALL 0xF8 0x28 0xE MULMOD 0x5D DUP12 OR PUSH5 0xD12E1A5E65 CREATE 0xC 0xCB PUSH9 0x2CBF1DC2B9756F42BC SWAP10 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "71:4216:31:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c8063416a8b201460425780637df38c5b14605a575b600080fd5b60486060565b60408051918252519081900360200190f35b60486070565b6b033b2e3c9fd0803ce800000090565b670de0b6b3a76400009056fea2646970667358221220b1258935f1f8280e095d8b1764d12e1a5e65f00ccb682cbf1dc2b9756f42bc9964736f6c634300060c0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3D JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x416A8B20 EQ PUSH1 0x42 JUMPI DUP1 PUSH4 0x7DF38C5B EQ PUSH1 0x5A JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x48 PUSH1 0x60 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x48 PUSH1 0x70 JUMP JUMPDEST PUSH12 0x33B2E3C9FD0803CE8000000 SWAP1 JUMP JUMPDEST PUSH8 0xDE0B6B3A7640000 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB1 0x25 DUP10 CALLDATALOAD CALL 0xF8 0x28 0xE MULMOD 0x5D DUP12 OR PUSH5 0xD12E1A5E65 CREATE 0xC 0xCB PUSH9 0x2CBF1DC2B9756F42BC SWAP10 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+      "sourceMap": "71:4216:31:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;243:72;;;:::i;:::-;;;;;;;;;;;;;;;;165;;;:::i;243:::-;152:6;243:72;:::o;165:::-;117:6;165:72;:::o"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"ray\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"wad\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/SafeMathSwapFee.sol\":\"SafeMath\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/SafeMathSwapFee.sol\":{\"keccak256\":\"0x12a4d8b41141c77a31aafaa089c9a53fe2bc14beb79451715088d17b1f656add\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://84bcf90f72b8d71c89fb0658b5d547a3746540153e65b62e37560f084f08a25b\",\"dweb:/ipfs/QmVHmSQGEejHDXWFvfBoHqWXvVfbph8V1rHjqcEofnoNpr\"]}},\"version\":1}",
+  "interface": [
+    {
+      "inputs": [],
+      "name": "ray",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wad",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "60b2610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe7300000000000000000000000000000000000000003014608060405260043610603d5760003560e01c8063416a8b201460425780637df38c5b14605a575b600080fd5b60486060565b60408051918252519081900360200190f35b60486070565b6b033b2e3c9fd0803ce800000090565b670de0b6b3a76400009056fea2646970667358221220b1258935f1f8280e095d8b1764d12e1a5e65f00ccb682cbf1dc2b9756f42bc9964736f6c634300060c0033"
+}
